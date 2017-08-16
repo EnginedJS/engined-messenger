@@ -9,10 +9,10 @@ module.exports = (opts = {}) => class extends Service {
 
 	async start() {
 		let manager = new AgentManager();
-		this.getContext().set('Mailer', manager);
+		this.getContext().set('Messenger', manager);
 	}
 
 	async stop() {
-		this.getContext().set('Mailer', undefined);
+		this.getContext().set('Messenger', undefined);
 	}
 }
