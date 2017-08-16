@@ -1,0 +1,34 @@
+{
+  "name": "engined-messenger",
+  "version": "0.0.1",
+  "description": "Messenger service for engined, used to send message in backend.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnginedJS/engined-messenger.git"
+  },
+  "keywords": [
+    "service",
+    "engined",
+    "messenger",
+    "message"
+  ],
+  "engines": {
+    "node": ">=7.4"
+  },
+  "author": "Leon Lin <leonlin14@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnginedJS/engined-messenger/issues"
+  },
+  "homepage": "https://github.com/EnginedJS/engined-messenger#readme",
+  "dependencies": {
+    "engined": "0.0.2"
+  }
+}
