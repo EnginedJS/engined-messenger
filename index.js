@@ -8,11 +8,10 @@ module.exports = (opts = {}) => class extends Service {
 	}
 
 	async start() {
-		let manager = new AgentManager();
-		this.getContext().set('Messenger', manager);
+		this.getContext().assert('Messenger');
 	}
 
 	async stop() {
-		this.getContext().set('Messenger', undefined);
+		this.getContext().remove('Messenger');
 	}
 }
