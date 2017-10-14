@@ -1,5 +1,4 @@
 const { Service } = require('engined');
-const AgentManager = require('./lib/agent_manager');
 
 module.exports = (opts = {}) => class extends Service {
 
